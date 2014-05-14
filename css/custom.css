@@ -52,6 +52,11 @@ section h1 {
     width: 500px;
     float:left;
 }
+#screen1 {
+    background: url("../images/1600x810.png") center fixed no-repeat;
+
+    background-size: cover;
+}
 .twoScreen section:first-child {
     margin-right:100px;
 }
