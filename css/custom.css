@@ -32,6 +32,9 @@ section {
     color: #fff;
     position: relative;
 }
+.screen{
+    position: relative;
+}
 .imgWrapper{
     width: 200px;
     height: 200px;
@@ -104,17 +107,23 @@ section p {
     background: #f57942;
 }
 #screen1 {
-    background: url("../images/1600x810.png") center fixed no-repeat;
+    background: #00ccff;
     background-size: cover;
     z-index: 1;
+    position: relative;
 }
 #screen2 {
-    background: #00ccff;
+    background: url("../images/1600x810.png") center fixed no-repeat;
+    position: relative;
     z-index: 2;
 }
 #screen3 {
     background: #69a74e;
     z-index: 3;
+    position: relative;
+}
+#screen4{
+    z-index: 4;
 }
 #screen1 h1,#screen1 p{
     color:#000;
