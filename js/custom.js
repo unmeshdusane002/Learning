@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var docHeight = $(window).height()+200;
+    var docHeight = $(window).height()+50;
     var docWidth = $(window).width();
    $(".wrapper > div").css("height",docHeight);
 

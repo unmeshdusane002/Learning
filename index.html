@@ -14,10 +14,10 @@
                 <div class="userImgOuter">
                     <div class="imgWrapper"
                          data-anchor-target="#home"
-                         data-0-top-top="opacity:1;border-radius:100px;transform:rotate(0deg);box-shadow: 0 0 10px #339BFF;"
-                         data--100-top-top="opacity:0.8;border-radius:50px;transform:rotate(90deg);"
-                         data--200-top-top="opacity:0.3;transform:rotate(180deg);"
-                         data--500-top-top="opacity:0;transform:rotate(360deg);">
+                         data-0-top-top="position: relative; opacity:1;border-radius:100px;transform:rotate(0deg);box-shadow: 0 0 10px #339BFF;"
+                         data--100-top-top="top: 50px; opacity:0.8;border-radius:50px;transform:rotate(90deg);"
+                         data--200-top-top="top: 350px; opacity:0.3;transform:rotate(180deg);"
+                         data--500-top-top="top: 600px; opacity:0;transform:rotate(360deg);">
                         <img src="images/sportCourses_4.jpg" alt="img" />
                     </div>
                     <div class="namePopup"
@@ -92,7 +92,12 @@
             </section>
         </div>
     </div>
-    <div class="screen" id="screen2">
+    
+    <div class="screen" id="screen2" 
+    data-anchor-target="#screen2" 
+    data-0-top = "background-position:0 0;"
+    data--50-top = "background-position:0 -10px;"
+    data--50-top = "background-position:0 -50px;">
         <div class="container">
             <section class="infoWrapper">
                 <div class="imgWrapper"
